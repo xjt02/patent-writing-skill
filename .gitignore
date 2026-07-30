@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Test outputs
+tests/output/
+assets/cases/
+tools/__pycache__/
+
+# Binary artifacts (too large for diff, generated locally)
+# Binary artifacts
+*.vsdx
+*.png
+
+# Exception: required template files (needed for --template parameter)
+!assets/templates/*.docx
+# Exception: sample output docx (referenced in SKILL.md as complete example)
+!examples/sample_002/sample_002.docx
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Virtual environments (if any)
+venv/
+.env

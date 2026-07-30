@@ -1,0 +1,273 @@
+{
+  "source_file": "assets\\templates\\专利空白模版_fixed.docx",
+  "section_count": 5,
+  "doc_defaults_rFonts": {
+    "ascii": "Times New Roman",
+    "hAnsi": "Times New Roman",
+    "eastAsia": "宋体",
+    "cs": "Times New Roman"
+  },
+  "sections": [
+    {
+      "index": 1,
+      "header_texts": [
+        {
+          "text": "说    明    书    摘    要",
+          "format": {
+            "paragraph_indent": {
+              "firstLine": 0,
+              "firstLineChars": 0
+            },
+            "paragraph_jc": "center",
+            "first_run_font_hint": "eastAsia"
+          }
+        }
+      ],
+      "footer_texts": [
+        {
+          "text": "1",
+          "format": {
+            "paragraph_spacing": {
+              "line": 200,
+              "lineRule": "exact"
+            },
+            "paragraph_indent": {
+              "firstLine": 0,
+              "firstLineChars": 0
+            },
+            "paragraph_jc": "center"
+          }
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "header_texts": [
+        {
+          "text": "摘    要    附    图",
+          "format": {
+            "paragraph_indent": {
+              "firstLine": 0,
+              "firstLineChars": 0
+            },
+            "paragraph_jc": "center",
+            "first_run_font_hint": "eastAsia"
+          }
+        }
+      ],
+      "footer_texts": [
+        {
+          "text": "1",
+          "format": {
+            "paragraph_spacing": {
+              "line": 200,
+              "lineRule": "exact"
+            },
+            "paragraph_indent": {
+              "firstLine": 0,
+              "firstLineChars": 0
+            },
+            "paragraph_jc": "center"
+          }
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "header_texts": [
+        {
+          "text": "权    利    要    求    书 ",
+          "format": {
+            "paragraph_indent": {
+              "firstLine": 0,
+              "firstLineChars": 0
+            },
+            "paragraph_jc": "center",
+            "first_run_font_hint": "eastAsia"
+          }
+        }
+      ],
+      "footer_texts": [
+        {
+          "text": "1",
+          "format": {
+            "paragraph_spacing": {
+              "line": 200,
+              "lineRule": "exact"
+            },
+            "paragraph_indent": {
+              "firstLine": 0,
+              "firstLineChars": 0
+            },
+            "paragraph_jc": "center"
+          }
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "header_texts": [
+        {
+          "text": "说    明    书",
+          "format": {
+            "paragraph_indent": {
+              "firstLine": 0,
+              "firstLineChars": 0
+            },
+            "paragraph_jc": "center",
+            "first_run_font_hint": "eastAsia"
+          }
+        }
+      ],
+      "footer_texts": [
+        {
+          "text": "2",
+          "format": {
+            "paragraph_spacing": {
+              "line": 200,
+              "lineRule": "exact"
+            },
+            "paragraph_indent": {
+              "firstLine": 0,
+              "firstLineChars": 0
+            },
+            "paragraph_jc": "center"
+          }
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "header_texts": [
+        {
+          "text": "说    明    书    附    图",
+          "format": {
+            "paragraph_indent": {
+              "firstLine": 0,
+              "firstLineChars": 0
+            },
+            "paragraph_jc": "center",
+            "first_run_font_hint": "eastAsia"
+          }
+        }
+      ],
+      "footer_texts": [
+        {
+          "text": "1",
+          "format": {
+            "paragraph_spacing": {
+              "line": 200,
+              "lineRule": "exact"
+            },
+            "paragraph_indent": {
+              "firstLine": 0,
+              "firstLineChars": 0
+            },
+            "paragraph_jc": "center"
+          }
+        }
+      ]
+    }
+  ],
+  "body_paragraphs": [
+    {
+      "index": 0,
+      "format": {
+        "paragraph_rFonts": {
+          "ascii": "宋体",
+          "hAnsi": "宋体",
+          "cs": "宋体"
+        },
+        "paragraph_indent": {
+          "firstLine": 560
+        }
+      }
+    },
+    {
+      "index": 1,
+      "format": {
+        "paragraph_rFonts": {
+          "ascii": "宋体",
+          "hAnsi": "宋体",
+          "cs": "宋体"
+        },
+        "paragraph_indent": {
+          "firstLine": 0,
+          "firstLineChars": 0
+        },
+        "paragraph_jc": "center"
+      }
+    },
+    {
+      "index": 2,
+      "format": {
+        "paragraph_rFonts": {
+          "ascii": "宋体",
+          "hAnsi": "宋体",
+          "cs": "宋体"
+        },
+        "paragraph_indent": {
+          "firstLine": 0,
+          "firstLineChars": 0
+        },
+        "paragraph_jc": "center"
+      }
+    },
+    {
+      "index": 3,
+      "format": {
+        "paragraph_indent": {
+          "firstLine": 420,
+          "firstLineChars": 150,
+          "left": 140,
+          "leftChars": 50
+        }
+      }
+    },
+    {
+      "index": 4,
+      "format": {
+        "paragraph_indent": {
+          "firstLine": 420,
+          "firstLineChars": 150,
+          "left": 140,
+          "leftChars": 50
+        }
+      }
+    },
+    {
+      "index": 5,
+      "format": {
+        "paragraph_indent": {
+          "firstLine": 560
+        }
+      }
+    },
+    {
+      "index": 6,
+      "format": {
+        "paragraph_indent": {
+          "firstLine": 420,
+          "firstLineChars": 150,
+          "left": 140,
+          "leftChars": 50
+        }
+      }
+    },
+    {
+      "index": 7,
+      "format": {
+        "paragraph_rFonts": {
+          "ascii": "宋体",
+          "hAnsi": "宋体",
+          "cs": "宋体"
+        },
+        "paragraph_indent": {
+          "firstLine": 0,
+          "firstLineChars": 0
+        },
+        "paragraph_jc": "center"
+      }
+    }
+  ]
+}

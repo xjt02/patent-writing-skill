@@ -1,0 +1,14 @@
+# 专利写作 skill 依赖
+# 核心
+python-docx>=1.2.0
+lxml>=4.9.0
+
+# 公式：MathML → OMML（首选）
+mathml2omml>=1.0.0
+
+# 流程图：visio-scientific-flowchart 依赖
+pywin32>=306 ; sys_platform == 'win32'
+
+# 测试
+pytest>=7.4.0
+pytest-cov>=4.1.0

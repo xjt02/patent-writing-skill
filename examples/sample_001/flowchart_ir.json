@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "title": "指针仪表识别流程",
+    "language": "zh"
+  },
+  "nodes": [
+    {
+      "id": "s",
+      "text": "开始",
+      "kind": "terminal_start"
+    },
+    {
+      "id": "p1",
+      "text": "采集指针仪表图像",
+      "kind": "io_input"
+    },
+    {
+      "id": "p2",
+      "text": "预处理：灰度化+二值化",
+      "kind": "process"
+    },
+    {
+      "id": "d1",
+      "text": "是否检测到指针",
+      "kind": "decision"
+    },
+    {
+      "id": "p3",
+      "text": "指针关键点检测",
+      "kind": "process"
+    },
+    {
+      "id": "p4",
+      "text": "刻度盘区域分割",
+      "kind": "process"
+    },
+    {
+      "id": "p5",
+      "text": "角度计算与示数识别",
+      "kind": "process"
+    },
+    {
+      "id": "p6",
+      "text": "输出读数",
+      "kind": "io_output"
+    },
+    {
+      "id": "e",
+      "text": "结束",
+      "kind": "terminal_end"
+    }
+  ],
+  "edges": [
+    {
+      "src": "s",
+      "dst": "p1"
+    },
+    {
+      "src": "p1",
+      "dst": "p2"
+    },
+    {
+      "src": "p2",
+      "dst": "d1"
+    },
+    {
+      "src": "d1",
+      "dst": "p3",
+      "label": "是",
+      "style": "yes"
+    },
+    {
+      "src": "d1",
+      "dst": "p4",
+      "label": "否",
+      "style": "no"
+    },
+    {
+      "src": "p3",
+      "dst": "p5"
+    },
+    {
+      "src": "p4",
+      "dst": "p5"
+    },
+    {
+      "src": "p5",
+      "dst": "p6"
+    },
+    {
+      "src": "p6",
+      "dst": "e"
+    }
+  ]
+}
